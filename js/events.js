@@ -13,7 +13,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing'.on('keypress', function(key){
+  $('input'.on('keypress', function(key){
     if(key.which === 71){alert('You have pressed G!');}
   });
 }
@@ -31,4 +31,4 @@ $(document).ready(function(){
   frameIt();
   submitIt();
   pressIt();
-});});
+});});});
