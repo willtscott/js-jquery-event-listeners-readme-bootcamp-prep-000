@@ -6,6 +6,12 @@ function getIt(){
   });
 }
 
+function frameIt() {
+  $('img').on('load', function(){
+    $('img').classList.add("tasty");
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
